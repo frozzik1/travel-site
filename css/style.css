@@ -1,0 +1,550 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.start_scr {
+  background-image: url("/images/main_bg.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  margin: 5px 0 5px 52px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-right: 34px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  display: block;
+  transition: transform 0.8s;
+}
+
+.menu ul li a {
+  font-size: 24px;
+  padding-right: 35px;
+  font-weight: lighter;
+  font-family: 'Red Rose', serif;
+  color: white;
+}
+.menu li:hover{
+  transform: scale(1.2);
+}
+
+.main_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name_company_span {
+  font-size: 128px;
+  opacity: 0.5;
+  font-family: 'Bowlby One SC', sans-serif;
+  margin-bottom: -65px;
+}
+
+.tagline_span_m {
+  font-size: 96px;
+  font-family: 'Titan One', sans-serif;
+  margin-right: 118px;
+}
+
+.tagline_span_e {
+  font-size: 96px;
+  font-family: 'Titan One', sans-serif;
+  margin-left: 70px;
+}
+
+.main_page_btn {
+  width: 220px;
+  height: 70px;
+  background: rgba(217, 217, 217, 0.20000000298023224);
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 25px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start_btn {
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 24px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 100;
+  transition: transform 0.8s;
+}
+.start_btn:hover{
+  transform: scale(1.1);
+}
+
+.mount_section {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mountain_img {
+  position: relative;
+  left: 35px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 550px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  left: 140px;
+}
+
+.about_p {
+  margin-bottom: 30px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.about_discr {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 33px;
+  margin: 0 auto;
+}
+
+.maldives_section {
+  display: flex;
+  align-items: center;
+}
+
+.maldives_image {
+  width: 800px;
+  height: 600px;
+  opacity: 0.85;
+  z-index: -1;
+  margin: 0 auto;
+}
+
+.blue_rect {
+  width: 1369px;
+  height: 217px;
+  background-color: #72C9DF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 -140px;
+}
+
+.line_rect {
+  width: 2px;
+  height: 141px;
+  background-color: rgb(255, 255, 255);
+}
+
+.rect_text {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  color: white;
+  width: 1000px;
+  line-height: 40px;
+  padding-left: 50px;
+}
+
+.col_adv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.col_header {
+  font-size: 32px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  line-height: 100px;
+}
+
+.col_about {
+  font-size: 24px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.column_div {
+  width: 370px;
+  height: 300px;
+}
+
+.tours_prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover 300px;
+  padding: 10px 0;
+  /* position: relative; */
+  overflow: hidden;
+  z-index: -1;
+}
+
+.tours_prev::before {
+  content: "";
+  position: absolute;
+  transform: translate(0, 0%);
+  width: 100%;
+  height: 342px;
+  background-color: #72C9DF;
+  z-index: -1;
+}
+
+.small_tours {
+  display: flex;
+  flex-direction: column;
+}
+
+.italy_div,
+.norwey_div,
+.switzerland_div,
+.france_div,
+.hungary_div,
+.austria_div {
+  display: flex;
+  align-items: end;
+  margin: 15px;
+}
+
+.norwey_div,
+.switzerland_div,
+.hungary_div,
+.austria_div {
+  height: 240px;
+  width: 370px;
+}
+
+.italy_div,
+.france_div {
+  height: 510px;
+  width: 370px;
+}
+
+.italy_div {
+  background: url(/images/italy_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.norwey_div {
+  background: url(/images/norway_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.switzerland_div {
+  background: url(/images/switzerland_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.france_div {
+  background: url(/images/france_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hungary_div {
+  background: url(/images/hungary_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.austria_div {
+  background: url(/images/austria_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tour_price {
+  font-size: 22px;
+  font-family: 'Changa One', sans-serif;
+  width: 144px;
+  height: 50px;
+  color: white;
+  transition: transform 0.8s;
+}
+
+.tour_price:hover{
+  transform: scale(1.1);
+}
+
+.tour_rect {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 370px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.journ_text {
+  font-family: 'Recursive', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin: 20px;
+}
+
+.scroll_here {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  text-align: right;
+  transition: background-color 0.9s ease;
+}
+
+.scroll_here.scrolled {
+  background-color: #212121;
+}
+
+footer {
+  height: 54px;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo_foo {
+  height: 45px;
+  padding: 0 7px;
+}
+
+.company_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_compan {
+  font-family: 'Bungee', sans-serif;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
+  font-family: 'Recursive', sans-serif;
+}
+
+.foo_ico {
+  height: 27px;
+  padding: 0 7px;
+}
+
+.contact_sect {
+  width: 100%;
+  height: 493px;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  margin: 0 auto;
+  background-size: cover 100px;
+  position: relative;
+}
+
+.contact_sect::before {
+  content: "";
+  position: absolute;
+  transform: translate(0, 25%);
+  width: 100%;
+  height: 396px;
+  background-color: #282828;
+  z-index: -1;
+  align-items: end;
+}
+
+.cont_img {
+  width: 615px;
+  height: 411px;
+  border: 2px solid black;
+}
+
+.contact_form {
+  width: 402px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.newsletter_p {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.sign_up_info {
+  font-family: 'Recursive', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.sign_input {
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: #212121;
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  font-family: 'Recursive', sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.sign_input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Recursive', sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.sub_btn {
+  width: 200px;
+  height: 40px;
+  border: 2px solid black;
+  font-family: 'Recursive', sans-serif;
+  font-size: 14px;
+  transition: transform 0.8s;
+}
+
+.sub_btn:hover{
+  transform: scale(1.1);
+}
+
+.map_div {
+  width: 615px;
+  height: 411px;
+  border: 2px solid black;
+}
