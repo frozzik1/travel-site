@@ -89,7 +89,7 @@ h6 {
 
 /*--------------------*/
 .start_scr {
-  background-image: url("images/main_bg.jpg");
+  background-image: url('../images/main_bg.jpg');
   height: 100vh;
   display: flex;
   flex-direction: column;
