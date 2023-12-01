@@ -342,42 +342,42 @@ li {
 }
 
 .italy_div {
-  background: url(./images/italy_img.jpg);
+  background: url('../images/italy_img.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .norwey_div {
-  background: url(./images/norway_img.jpg);
+  background: url('../images/norway_img.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .switzerland_div {
-  background: url(./images/switzerland_img.jpg);
+  background: url('../images/switzerland_img.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .france_div {
-  background: url(./images/france_img.jpg);
+  background: url('../images/france_img.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .hungary_div {
-  background: url(./images/hungary_img.jpg);
+  background: url('../images/hungary_img.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .austria_div {
-  background: url(./images/austria_img.jpg);
+  background: url('../images/austria_img.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
