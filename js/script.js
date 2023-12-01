@@ -1,13 +1,13 @@
-const header = document.querySelector('.scroll_here');
+ const header = document.querySelector('.scroll_here');
 const headerImage = document.querySelector('.logo');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 920) {
         header.classList.add('scrolled');
-        headerImage.src = "../images/logo2.png";
+        headerImage.src = '../images/logo2.png';
 
     } else {
         header.classList.remove('scrolled');
-        headerImage.src = "../images/logo.png";
+        headerImage.src = '../images/logo.png';
     }
 });
 
